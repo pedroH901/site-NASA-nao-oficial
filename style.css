@@ -39,4 +39,15 @@ display: flex;
 
     font-family: Verdana;
 }
+
+.fundo {
+
+    background-color: black;
+    max-width: 100%;
+    max-height: fit-content;
+
+}
   
+.cabecalho {
+
+}
