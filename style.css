@@ -49,38 +49,36 @@ font-style: italic;
 }
 
 .lua {
-
-    padding-right: 560px;
-}
-
-.fundo {
-
-}
-
-.botao-lua {
-
-    background-color: rgb(205, 205, 205);
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 16px;
-    text-align: center;
-
-}
-
-.lua {
-
-    color: rgb(0, 0, 0);
-    padding: 50px;
-    width: 700px;
-    height: 300px;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     background-size: cover;
+    background-position: center; 
+    margin-right: 100px;
+    box-sizing: border-box; 
 }
 
-body {
+.lua-texto {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para o texto */
+    padding: 20px; /* Ajuste o padding para evitar que o texto fique muito perto das bordas */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo do width/height */
+}
 
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/640/143/649/minecraft-moon-stars-wallpaper-preview.jpg");
-    background-repeat: no-repeat;
+.container {
+
+    position: relative;
+
+}
+
+.imagem-fundo {
+
+    position: absolute;
+    top: -100px;
+    left: -10px;
+    z-index: -1;
+    width: 1300px;
+    height: 657px;
 }
